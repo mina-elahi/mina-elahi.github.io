@@ -4,7 +4,7 @@
     }
     .backpic{
         height: 616px;
-        background:linear-gradient(45deg , rgba(21, 21, 21, 0.445) ,rgba(21, 21, 21, 0.342)) , url("../images/1.jpg");
+        background:linear-gradient(45deg , rgba(9, 9, 9, 0.445) ,rgba(9, 9, 9, 0.342)) , url("../images/1.jpg");
         background-size: cover;
         background-position: center;
         
@@ -52,6 +52,12 @@
         text-align: center;
         
     }
+    #play{
+        text-align: center;
+        line-height: 50px;
+        color: black;
+        font-size: 18px;
+    }
     .link2{
         display: block;
         width: 50px;
@@ -73,5 +79,18 @@
     }
     .link3:hover{
         color: #FCBC45;
+    }
+    .head5{
+        color: #FCBC45;
+        
+    }
+    .text5{
+        color: #7A7A7A;
+    }
+    .two{
+        text-align: right;
+    }
+    .container{
+        background-color: #eaeaeb;
     }
 }
