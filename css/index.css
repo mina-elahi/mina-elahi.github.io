@@ -148,4 +148,12 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+    .pic0{
+        height: 300px;
+        border-radius: 5px;
+
+    }
+    .bg02{
+        background-color: #070707;
+    }
 }
