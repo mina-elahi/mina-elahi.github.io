@@ -1,6 +1,25 @@
+div{
+    overflow: hidden;
+}
 @media all and ( max-width:767px ) {
     .nav{
-        height: 54px;
+        
+        background-color: #262626;
+    }
+    .screen{
+        background-color: transparent;
+        margin-top: 5px;
+    }
+    .mark{
+        background-color: #262626;
+    }
+    .buy{
+        width: 12%;
+        background-color: #82b440;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: calc(14px);
+        margin-top: 8px;
     }
     .backpic{
         height: 616px;
@@ -61,9 +80,9 @@
     .link2{
         display: block;
         width: 50px;
-        height: 50px;
+        
         border-radius: 50%;
-        line-height: 50px;
+        
         text-decoration: none;
         transition: all 300ms ease-out 0s;
     }
@@ -71,11 +90,13 @@
         background-color: #FCBC45;
     }
     .link3{
+        color: white;
         margin-right: auto;
         text-decoration: none;
-        line-height: 50px;
         font-size: 14px;
         transition: all 300ms ease-out 0s;
+        margin-top: 14px;
+        height: 0;
     }
     .link3:hover{
         color: #FCBC45;
@@ -93,9 +114,18 @@
     .container{
         background-color: #eaeaeb;
     }
+    .num{
+        font-size: calc(25px);
+    }
+    .iconic{
+        font-size: calc(25px);
+        color:#FCBC45 ;
+    }
+    .super{
+        color:#FCBC45 ; 
+    }
     .box22{
         width: 172px;
-        height: 57px;
         background-color: #FCBC45;
         text-align: center;
         transition: all 300ms ease-out 0s;
@@ -106,6 +136,12 @@
     .hand{
         width: 40px;
         height: 40px;
+        margin-top: -20px;
+        transition: all 300ms ease-out 0s;
+        margin-right: 10px;
+    }
+    .hand:hover{
+        transform: translateY(-8px);
     }
     .box001{
         width: 80%;
@@ -146,7 +182,7 @@
         background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+
     }
     .pic0{
         height: 300px;
@@ -156,4 +192,57 @@
     .bg02{
         background-color: #070707;
     }
+    .graycolor{
+        color: #9c9c9c;
+    }
+    .linkline{
+        color: black;
+        transition: all 200ms ease-out 0s;
+    }
+    .linkline:hover{
+        color:#FCBC45;
+    }
+    .text022{
+        font-size: calc(14px);
+    }
+    .face{
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background-color: white;
+        margin-right: 10px;
+        transition:all 300ms ease-out 0s ;
+    }
+    .face:hover{
+        background-color: FCBC45;
+        transform: scale(0.9);
+    }
+    .linking{
+        width:10% ;
+        color: white;
+        transition: all 300ms ease-out 0s;
+    }
+    .linking:hover{
+        color: #FCBC45;
+    }
+    .linking2{
+        color: white;
+        transition: all 300ms ease-out 0s;
+    }
+    .linking2:hover{
+        color: #FCBC45;;
+    }
+    .mail-box{
+        height: 50px;
+        background-color: white;
+        width: 90%;
+    }
+    .send-box{
+        height: 50px;
+        width: 90%;
+        background-color: #fcbc45;
+    }
+}
+@media all and (min-width:768px) and ( max-width:1199px) {
+    
 }
