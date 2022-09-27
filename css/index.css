@@ -1,8 +1,7 @@
 div{
     overflow: hidden;
 }
-@media all and ( max-width:767px ) {
-    .nav{
+.nav{
         
         background-color: #262626;
     }
@@ -23,19 +22,14 @@ div{
     }
     .backpic{
         height: 616px;
-        background:linear-gradient(45deg , rgba(9, 9, 9, 0.445) ,rgba(9, 9, 9, 0.342)) , url("../images/1.jpg");
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.5)) , url("../images/1.jpg");
         background-size: cover;
         background-position: center;
-        
+    
     
     }
-    .pic1{
-        margin-left: auto;
-        margin-right: auto;
-        width: 95%;
-        background-color: #79797985;
-    }
-    .headline{
+     
+      .headline{
         text-align: center;
         font-size: calc(20px);
     }
@@ -69,7 +63,7 @@ div{
         height: 50px;
         margin-left: auto;
         text-align: center;
-        
+        background-color: white;
     }
     #play{
         text-align: center;
@@ -80,7 +74,7 @@ div{
     .link2{
         display: block;
         width: 50px;
-        
+        height: 50px;
         border-radius: 50%;
         
         text-decoration: none;
@@ -101,37 +95,25 @@ div{
     .link3:hover{
         color: #FCBC45;
     }
-    .head5{
+    .graycolor{
+        color: #9c9c9c;
+    }
+     .head5{
         color: #FCBC45;
         
     }
     .text5{
         color: #7A7A7A;
     }
-    .two{
-        text-align: right;
-    }
-    .container{
-        background-color: #eaeaeb;
-    }
-    .num{
+ .num{
         font-size: calc(25px);
     }
     .iconic{
         font-size: calc(25px);
         color:#FCBC45 ;
     }
-    .super{
+     .super{
         color:#FCBC45 ; 
-    }
-    .box22{
-        width: 172px;
-        background-color: #FCBC45;
-        text-align: center;
-        transition: all 300ms ease-out 0s;
-    }
-    .box22:hover{
-        transform: translateY(-8px);
     }
     .hand{
         width: 40px;
@@ -144,27 +126,28 @@ div{
         transform: translateY(-8px);
     }
     .box001{
-        width: 80%;
+        
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
         border-radius: 10px 10px 10px 10px;
         margin-bottom: 20px;
         margin-top: 50px;
+    
 
     }
-    .bg1{
-        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
-        background-position: left top;
-    
+    .box22{
+        width:173px ;
+        background-color: #FCBC45;
+        text-align: center;
+        transition: all 300ms ease-out 0s;
     }
-    .photo1{
-        border-radius: 5px;
-        transition: all 400ms ease 0s;
-        height: 225px;
+    .box22:hover{
+        transform: translateY(-8px);
     }
-    .photo1:hover{
-        transform: scale(1.1);
+    .check{
+        color:#FCBC45 ;
+        margin-right: 5px;
     }
     .slid1{
         box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
@@ -177,13 +160,8 @@ div{
         width: 60px;
         margin-top: 30px;
     }
-    .back202{
-        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/back202.jpg");
-        background-position: center top;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-    }
+    
+  
     .pic0{
         height: 300px;
         border-radius: 5px;
@@ -192,9 +170,7 @@ div{
     .bg02{
         background-color: #070707;
     }
-    .graycolor{
-        color: #9c9c9c;
-    }
+   
     .linkline{
         color: black;
         transition: all 200ms ease-out 0s;
@@ -242,7 +218,92 @@ div{
         width: 90%;
         background-color: #fcbc45;
     }
+@media all and ( max-width:767px ) {
+    
+    .pic01{
+        width: 50%;
+    }
+    .pic1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        background-color: #79797985;
+    }
+   
+    .two{
+        text-align: right;
+    }
+   
+    .bg1{
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
+        background-position: left top;
+    
+    }
+    .photo1{
+        border-radius: 5px;
+        transition: all 400ms ease 0s;
+        height: 225px;
+    }
+    .photo1:hover{
+        transform: scale(1.1);
+    }
+    .back202{
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/back202.jpg");
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    
 }
 @media all and (min-width:768px) and ( max-width:1199px) {
+    .pic01{
+        width: 20%;
+        margin: 20px;
+    }
+    .pic1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        background-color: #79797985;
+
+    }
+    .textmd{
+        font-size: calc(14px);
+        color: white;
+    }
+    .cir{
+        margin-top: 35px!important;
+    }
+    .htest{
+        font-size: calc(45px);
+    }
+    .servis{
+        font-size:calc( 35px);
+    }
+    .bg1{
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
+        background-position: left top;
+        background-attachment: fixed;
+    
+    }
+    .photo1{
+        border-radius: 5px;
+        transition: all 400ms ease 0s;
+        height: 225px;
+    }
+    .photo1:hover{
+        transform: scale(1.1);
+    }
+    .head021{
+        font-size: calc(20px);
+    }
+    .back202{
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/back202.jpg");
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
     
 }
