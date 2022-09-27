@@ -28,7 +28,9 @@ div{
     
     
     }
-     
+     .bgy{
+        background-color: #f9f9f9;
+     }
       .headline{
         text-align: center;
         font-size: calc(20px);
@@ -208,16 +210,7 @@ div{
     .linking2:hover{
         color: #FCBC45;;
     }
-    .mail-box{
-        height: 50px;
-        background-color: white;
-        width: 90%;
-    }
-    .send-box{
-        height: 50px;
-        width: 90%;
-        background-color: #fcbc45;
-    }
+  
 @media all and ( max-width:767px ) {
     
     .pic01{
@@ -254,9 +247,19 @@ div{
         background-repeat: no-repeat;
 
     }
+    .mail-box{
+        height: 50px;
+        background-color: white;
+        width: 90%;
+    }
+    .send-box{
+        height: 50px;
+        width: 90%;
+        background-color: #fcbc45;
+    }
     
 }
-@media all and (min-width:768px) and ( max-width:1199px) {
+@media all and (min-width:768px) and ( max-width:991px) {
     .pic01{
         width: 20%;
         margin: 20px;
@@ -299,11 +302,95 @@ div{
         font-size: calc(20px);
     }
     .back202{
-        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/back202.jpg");
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.7)) ,url("../images/back202.jpg");
         background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;
 
     }
+    .tc{
+        text-align: center;
+    }
+    .mail-box{
+        height: 50px;
+        background-color: white;
+        width: 90%;
+    }
+    .send-box{
+        height: 50px;
+        width: 90%;
+        background-color: #fcbc45;
+    }
+}
+
+@media all and (min-width:992px) {
+    .pic01{
+        width: 20%;
+        margin: 20px;
+    }
+    .pic1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        background-color: #79797985;
+
+    }
+    .textmd{
+        font-size: calc(14px);
+        color: white;
+    }
+    .cir{
+        margin-top: 35px!important;
+    }
+    .htest{
+        font-size: calc(45px);
+    }
+    .servis{
+        font-size:calc( 35px);
+    }
+    .bg1{
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
+        background-position: left top;
+        background-attachment: fixed;
     
+    }
+    .photo1{
+        border-radius: 5px;
+        transition: all 400ms ease 0s;
+        height: 225px;
+    }
+    .photo1:hover{
+        transform: scale(1.1);
+    }
+    .head021{
+        font-size: calc(20px);
+    }
+    .back202{
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.7)) ,url("../images/back202.jpg");
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .tc{
+        text-align: center;
+    }
+    .mail-box{
+        height: 50px;
+        background-color: white;
+        width: 90%;
+    }
+    .send-box{
+        height: 50px;
+        width: 32%;
+        background-color: #fcbc45;
+    }
+    .text5{
+        text-align: justify;
+        font-size: calc(14px);
+    }
+    .pic0050{
+        padding-top: 30px;
+    }
 }
