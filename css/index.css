@@ -20,6 +20,17 @@ div{
         font-size: calc(14px);
         margin-top: 8px;
     }
+    .icface{
+        margin-right: 20px;
+        border-left: 1px solid gray;
+        padding-left: 10px;
+        transition: all 300ms ease-out 0s;
+        color: white;
+    }
+    .icface:hover{
+        color:#FCBC45 ;
+    }
+
     .backpic{
         height: 616px;
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.5)) , url("../images/1.jpg");
@@ -31,14 +42,26 @@ div{
      .bgy{
         background-color: #f9f9f9;
      }
-      .headline{
-        text-align: center;
-        font-size: calc(20px);
-    }
+    
+       
+    
     .text1{
         font-size: calc(13px);
         text-align: center;
         color: #DADADA;
+        background-color: rebeccapurple;
+    }
+    .box-quote{
+        animation:animate1 1.2s 1 0s forwards linear; 
+    }
+    .welcome{
+        animation:animate2 1.2s 1 0s forwards linear; 
+    }
+    @keyframes animate2{
+        from{ margin-left:-500px;
+            
+            }
+        to{ text-align: left;}
     }
     .box1{
         width: 172px;
@@ -210,6 +233,38 @@ div{
     .linking2:hover{
         color: #FCBC45;;
     }
+    @keyframes animate1{
+        from{ margin-left:-500px;
+            
+            }
+        to{ text-align: center;}
+    }
+  .headline{
+    animation:animate1 1s 1 0s forwards linear;
+    text-align: center;
+    font-size: calc(20px);
+  }
+  .phot{
+    background-image: url("../images/0111.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .phot1{
+    background-image: url("../images/0222.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .phot2{
+    background-image: url("../images/0333.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   
 @media all and ( max-width:767px ) {
     
