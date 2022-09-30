@@ -2,8 +2,11 @@ div{
     overflow: hidden;
 }
 .nav{
-        
+       z-index: 5; 
         background-color: #262626;
+    }
+    .spc{
+        margin-top: 53px;
     }
     .screen{
         background-color: transparent;
@@ -13,10 +16,12 @@ div{
         background-color: #262626;
     }
     .buy{
-        width: 12%;
+        min-width: 50px;
         background-color: #82b440;
         padding-top: 8px;
         padding-bottom: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
         font-size: calc(14px);
         margin-top: 8px;
     }
@@ -33,7 +38,7 @@ div{
 
     .backpic{
         height: 616px;
-        background:linear-gradient(45deg , rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.5)) , url("../images/1.jpg");
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.7)) , url("../images/1.jpg");
         background-size: cover;
         background-position: center;
     
@@ -49,7 +54,21 @@ div{
         font-size: calc(13px);
         text-align: center;
         color: #DADADA;
-        background-color: rebeccapurple;
+        animation:animate3 1.2s 1 0s forwards linear; 
+    }
+    @keyframes animate3{
+        from{ transform: translateX(50%);
+            
+            }
+        to{ transform: translateX(0);}
+    }
+    .anim{
+        animation:animate4 1.2s 1 0s forwards linear; 
+    }
+    @keyframes animate4{
+        0%{ opacity: 0;}
+        50%{opacity: 50%;}
+        100%{ opacity: 100%;}
     }
     .box-quote{
         animation:animate1 1.2s 1 0s forwards linear; 
@@ -74,7 +93,7 @@ div{
     }
     .link1{
         display: block;
-        width: 172px;
+        width: 170px;
         height: 57px;
         line-height: 57px;
         text-decoration: none;
@@ -89,6 +108,14 @@ div{
         margin-left: auto;
         text-align: center;
         background-color: white;
+        animation:animate5 5s infinite forwards 0s linear; 
+
+    }
+    
+    @keyframes animate5{
+        0%{ box-shadow:0px 0px 0px 0px transparent ;}
+        50%{ box-shadow: 0px 0px 0px 4px rgba(255, 255, 255,0.4);}
+        100%{ box-shadow: 0px 0px 0px 4px rgba(255, 255, 255,0.1),0px 0px 0px 4px rgba(255, 255, 255,0.1);}
     }
     #play{
         text-align: center;
@@ -137,7 +164,7 @@ div{
         font-size: calc(25px);
         color:#FCBC45 ;
     }
-     .super{
+    .super{
         color:#FCBC45 ; 
     }
     .hand{
@@ -154,18 +181,19 @@ div{
         
         margin-left: auto;
         margin-right: auto;
-        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
         border-radius: 10px 10px 10px 10px;
-        margin-bottom: 20px;
-        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-top: 30px;
     
 
     }
     .box22{
-        width:173px ;
+        width: 170px;
         background-color: #FCBC45;
         text-align: center;
         transition: all 300ms ease-out 0s;
+        font-size: calc(15px);
     }
     .box22:hover{
         transform: translateY(-8px);
@@ -234,14 +262,14 @@ div{
         color: #FCBC45;;
     }
     @keyframes animate1{
-        from{ margin-left:-500px;
+        from{ transform: translateX(-50%);
             
             }
-        to{ text-align: center;}
+        to{ transform: translateX(0%);}
     }
   .headline{
     animation:animate1 1s 1 0s forwards linear;
-    text-align: center;
+    text-align:center;
     font-size: calc(20px);
   }
   .phot{
@@ -265,6 +293,12 @@ div{
     background-size: cover;
     background-position: center;
   }
+  .still{
+    font-weight: bold;
+  }
+  .servis{
+    font-weight: bold;
+  }
   
 @media all and ( max-width:767px ) {
     
@@ -283,7 +317,7 @@ div{
     }
    
     .bg1{
-        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.545) ,rgba(0, 0, 0, 0.642)) ,url("../images/2.jpg");
         background-position: left top;
     
     }
@@ -296,7 +330,7 @@ div{
         transform: scale(1.1);
     }
     .back202{
-        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/back202.jpg");
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.645) ,rgba(0, 0, 0, 0.742)) ,url("../images/back202.jpg");
         background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -376,17 +410,24 @@ div{
         width: 90%;
         background-color: #fcbc45;
     }
+    .htest{
+        font-weight: bold;
+    }
+    .text5{
+        text-align: justify;
+        font-size: calc(14px);
+    }
 }
 
 @media all and (min-width:992px) {
     .pic01{
-        width: 20%;
-        margin: 20px;
+        width: 15%;
+        margin: 15px;
     }
     .pic1{
         margin-left: auto;
         margin-right: auto;
-        width: 95%;
+        width: 70%;
         background-color: #79797985;
 
     }
@@ -447,5 +488,9 @@ div{
     }
     .pic0050{
         padding-top: 30px;
+    }
+    .htest{
+        font-size:calc(55px);
+        font-weight: bold;
     }
 }
