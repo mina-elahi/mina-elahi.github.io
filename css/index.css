@@ -119,9 +119,10 @@ div{
     }
     #play{
         text-align: center;
-        line-height: 50px;
         color: black;
         font-size: 18px;
+        line-height: 50px;
+        padding-top: 20px;
     }
     .link2{
         display: block;
@@ -156,6 +157,7 @@ div{
     }
     .text5{
         color: #7A7A7A;
+        
     }
  .num{
         font-size: calc(25px);
@@ -350,7 +352,7 @@ div{
 }
 @media all and (min-width:768px) and ( max-width:991px) {
     .pic01{
-        width: 20%;
+        width: 30%;
         margin: 20px;
     }
     .pic1{
@@ -421,9 +423,10 @@ div{
 
 @media all and (min-width:992px) {
     .pic01{
-        width: 15%;
+        width: 25%;
         margin: 15px;
     }
+   
     .pic1{
         margin-left: auto;
         margin-right: auto;
