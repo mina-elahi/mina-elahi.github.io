@@ -161,6 +161,7 @@ div{
     }
  .num{
         font-size: calc(25px);
+        font-weight: bold;
     }
     .iconic{
         font-size: calc(25px);
@@ -190,6 +191,9 @@ div{
     
 
     }
+    .lorem-text{
+        text-align: justify;
+    }
     .box22{
         width: 170px;
         background-color: #FCBC45;
@@ -207,8 +211,8 @@ div{
     .slid1{
         box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
         border-radius: 5px 5px 5px 5px;
-        margin: 15px 10px 15px 10px;
-        padding: 10px 40px 40px 40px;
+        margin: 35px 10px 15px 10px;
+        padding: 10px 20px 0px 20px;
         font-size: calc(14px);
     }
     .manpic{
@@ -301,7 +305,7 @@ div{
   .servis{
     font-weight: bold;
   }
-  
+ 
 @media all and ( max-width:767px ) {
     
     .pic01{
@@ -339,12 +343,12 @@ div{
 
     }
     .mail-box{
-        height: 50px;
+        height: 37px;
         background-color: white;
         width: 90%;
     }
     .send-box{
-        height: 50px;
+        height: 37px;
         width: 90%;
         background-color: #fcbc45;
     }
@@ -400,15 +404,15 @@ div{
 
     }
     .tc{
-        text-align: center;
+        text-align: justify;
     }
     .mail-box{
-        height: 50px;
+        height: 37px;
         background-color: white;
         width: 90%;
     }
     .send-box{
-        height: 50px;
+        height: 37px;
         width: 90%;
         background-color: #fcbc45;
     }
@@ -430,7 +434,7 @@ div{
     .pic1{
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 80%;
         background-color: #79797985;
 
     }
@@ -445,7 +449,7 @@ div{
         font-size: calc(45px);
     }
     .servis{
-        font-size:calc( 35px);
+        font-size:calc( 30px);
     }
     .bg1{
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
@@ -473,17 +477,18 @@ div{
 
     }
     .tc{
-        text-align: center;
+        text-align: justify;
     }
     .mail-box{
-        height: 50px;
+        height: 37px;
         background-color: white;
         width: 90%;
     }
     .send-box{
-        height: 50px;
+        height: 37px;
         width: 32%;
         background-color: #fcbc45;
+        line-height: 37px;
     }
     .text5{
         text-align: justify;
