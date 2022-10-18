@@ -253,7 +253,7 @@ div{
         transform: scale(0.9);
     }
     .linking{
-        width:10% ;
+        
         color: white;
         transition: all 300ms ease-out 0s;
     }
@@ -501,4 +501,5 @@ div{
         font-size:calc(55px);
         font-weight: bold;
     }
+  
 }
