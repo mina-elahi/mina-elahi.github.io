@@ -40,6 +40,7 @@ div{
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.7)) , url("../images/1.jpg");
         background-size: cover;
         background-position: center;
+        min-height: 690px;
     }
      .bgy{
         background-color: #f9f9f9;
@@ -102,6 +103,14 @@ div{
         margin-left: auto;
         text-align: center;
         background-color: white;
+        animation:animate5 5s infinite forwards 0s linear; 
+    }
+    .circle1{
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        text-align: center;
+        z-index: 3;
         animation:animate5 5s infinite forwards 0s linear; 
     }
     
@@ -177,7 +186,7 @@ div{
         
         margin-left: auto;
         margin-right: auto;
-        box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.2);
         border-radius: 10px 10px 10px 10px;
         margin-bottom: 10px;
         margin-top: 30px;
@@ -202,7 +211,7 @@ div{
         margin-right: 5px;
     }
     .slid1{
-        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.2);
         border-radius: 5px 5px 5px 5px;
         margin: 35px 10px 15px 10px;
         padding: 10px 20px 0px 20px;
@@ -292,6 +301,15 @@ div{
   .servis{
     font-weight: bold;
   }
+  .picon{
+    z-index: 2;
+    bottom: 50px;
+    width: 65%;
+    left: 110px;
+    top: 100px;
+    border: 20px solid white;
+  }
+
 @media all and ( max-width:767px ) {
     
     .pic01{
@@ -307,7 +325,7 @@ div{
         text-align: right;
     }
      .bg1{
-        background:linear-gradient(45deg , rgba(0, 0, 0, 0.545) ,rgba(0, 0, 0, 0.642)) ,url("../images/2.jpg");
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.645) ,rgba(0, 0, 0, 0.742)) ,url("../images/2.jpg");
         background-position: left top;
     
     }
@@ -367,7 +385,7 @@ div{
         font-size:calc( 35px);
     }
     .bg1{
-        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.645) ,rgba(0, 0, 0, 0.742)) ,url("../images/2.jpg");
         background-position: left top;
         background-attachment: fixed;
     }
@@ -440,7 +458,7 @@ div{
         font-size:calc( 30px);
     }
     .bg1{
-        background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
+        background:linear-gradient(45deg , rgba(0, 0, 0, 0.645) ,rgba(0, 0, 0, 0.742)) ,url("../images/2.jpg");
         background-position: left top;
         background-attachment: fixed;
     }
@@ -495,6 +513,6 @@ div{
     }
 }
  .cash{
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.2);
+    background-color: #faf7f7;
  }
