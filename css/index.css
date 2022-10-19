@@ -35,21 +35,15 @@ div{
     .icface:hover{
         color:#FCBC45 ;
     }
-
     .backpic{
         height: 616px;
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.7)) , url("../images/1.jpg");
         background-size: cover;
         background-position: center;
-    
-    
     }
      .bgy{
         background-color: #f9f9f9;
      }
-    
-       
-    
     .text1{
         font-size: calc(13px);
         text-align: center;
@@ -98,7 +92,6 @@ div{
         height: 57px;
         line-height: 57px;
         text-decoration: none;
-
     }
     .box1:hover{
         transform: translateY(-8px);
@@ -110,7 +103,6 @@ div{
         text-align: center;
         background-color: white;
         animation:animate5 5s infinite forwards 0s linear; 
-
     }
     
     @keyframes animate5{
@@ -130,8 +122,7 @@ div{
         display: block;
         width: 50px;
         height: 50px;
-        border-radius: 50%;
-        
+        border-radius: 50%;   
         text-decoration: none;
         transition: all 300ms ease-out 0s;
     }
@@ -221,17 +212,11 @@ div{
         width: 60px;
         margin-top: 30px;
     }
-    
-  
     .pic0{
         height: 300px;
         border-radius: 5px;
 
     }
-    .bg02{
-        background-color: #070707;
-    }
-   
     .linkline{
         color: black;
         transition: all 200ms ease-out 0s;
@@ -307,7 +292,6 @@ div{
   .servis{
     font-weight: bold;
   }
- 
 @media all and ( max-width:767px ) {
     
     .pic01{
@@ -319,12 +303,10 @@ div{
         width: 95%;
         background-color: #79797985;
     }
-   
     .two{
         text-align: right;
     }
-   
-    .bg1{
+     .bg1{
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.545) ,rgba(0, 0, 0, 0.642)) ,url("../images/2.jpg");
         background-position: left top;
     
@@ -342,7 +324,6 @@ div{
         background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;
-
     }
     .mail-box{
         height: 37px;
@@ -354,7 +335,12 @@ div{
         width: 90%;
         background-color: #fcbc45;
     }
-    
+    .cash{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+    }
 }
 @media all and (min-width:768px) and ( max-width:991px) {
     .pic01{
@@ -366,7 +352,6 @@ div{
         margin-right: auto;
         width: 95%;
         background-color: #79797985;
-
     }
     .textmd{
         font-size: calc(14px);
@@ -385,7 +370,6 @@ div{
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
         background-position: left top;
         background-attachment: fixed;
-    
     }
     .photo1{
         border-radius: 5px;
@@ -403,7 +387,6 @@ div{
         background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;
-
     }
     .tc{
         text-align: justify;
@@ -425,20 +408,23 @@ div{
         text-align: justify;
         font-size: calc(14px);
     }
+    .cash{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+    }
 }
-
 @media all and (min-width:992px) {
     .pic01{
         width: 25%;
         margin: 15px;
     }
-   
     .pic1{
         margin-left: auto;
         margin-right: auto;
         width: 80%;
         background-color: #79797985;
-
     }
     .textmd{
         font-size: calc(14px);
@@ -457,7 +443,6 @@ div{
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.445) ,rgba(0, 0, 0, 0.342)) ,url("../images/2.jpg");
         background-position: left top;
         background-attachment: fixed;
-    
     }
     .photo1{
         border-radius: 5px;
@@ -476,7 +461,6 @@ div{
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-
     }
     .tc{
         text-align: justify;
@@ -503,7 +487,12 @@ div{
         font-size:calc(55px);
         font-weight: bold;
     }
-
+    .cash{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+    }
 }
  .cash{
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
