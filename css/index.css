@@ -301,19 +301,12 @@ div{
   .servis{
     font-weight: bold;
   }
-  .picon{
-    z-index: 2;
-    bottom: 50px;
-    width: 65%;
-    left: 110px;
-    top: 100px;
-    border: 20px solid white;
-  }
+
 
 @media all and ( max-width:767px ) {
     
     .pic01{
-        width: 50%;
+        width: 100%;
     }
     .pic1{
         margin-left: auto;
@@ -359,11 +352,13 @@ div{
         margin-right: auto;
         margin-bottom: -10px;
     }
+   
 }
 @media all and (min-width:768px) and ( max-width:991px) {
     .pic01{
-        width: 30%;
+        width: 70%;
         margin: 20px;
+       
     }
     .pic1{
         margin-left: auto;
@@ -432,10 +427,18 @@ div{
         margin-right: auto;
         margin-bottom: -10px;
     }
+    .picon{
+        z-index: 2;
+        bottom: 50px;
+        width: 65%;
+        left: 110px;
+        top: 100px;
+        border: 20px solid white;
+      }
 }
 @media all and (min-width:992px) {
     .pic01{
-        width: 25%;
+        width: 50%;
         margin: 15px;
     }
     .pic1{
@@ -511,6 +514,14 @@ div{
         margin-right: auto;
         margin-bottom: -10px;
     }
+    .picon{
+        z-index: 2;
+        bottom: 50px;
+        width: 65%;
+        left: 110px;
+        top: 100px;
+        border: 20px solid white;
+      }
 }
  .cash{
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.2);
