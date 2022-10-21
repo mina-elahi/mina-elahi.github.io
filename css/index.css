@@ -99,14 +99,7 @@
         background-color: white;
         animation:animate5 5s infinite forwards 0s linear; 
     }
-    .circle1{
-        width: 50px;
-        height: 50px;
-        left: 0px;
-        text-align: center;
-        z-index: 3;
-        animation:animate5 5s infinite forwards 0s linear; 
-    } 
+
     @keyframes animate5{
         0%{ box-shadow:0px 0px 0px 0px transparent ;}
         50%{ box-shadow: 0px 0px 0px 4px rgba(255, 255, 255,0.4);}
@@ -466,6 +459,7 @@
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.645) ,rgba(0, 0, 0, 0.742)) ,url("../images/2.jpg");
         background-position: left top;
         background-attachment: fixed;
+        
     }
     .photo1{
         border-radius: 5px;
@@ -532,4 +526,5 @@
  .cash{
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.2);
     background-color: #faf7f7;
+    margin-bottom: -50px;
  }
