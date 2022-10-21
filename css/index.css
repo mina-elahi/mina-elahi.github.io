@@ -52,9 +52,7 @@ div{
         animation:animate3 1.2s 1 0s forwards linear; 
     }
     @keyframes animate3{
-        from{ transform: translateX(50%);
-            
-            }
+        from{ transform: translateX(50%); }
         to{ transform: translateX(0);}
     }
     .anim{
@@ -73,9 +71,7 @@ div{
         animation:animate2 1.2s 1 0s forwards linear; 
     }
     @keyframes animate2{
-        from{ margin-left:-500px;
-            
-            }
+        from{ margin-left:-500px; }
         to{ text-align: left;}
     }
     .box1{
@@ -112,8 +108,7 @@ div{
         text-align: center;
         z-index: 3;
         animation:animate5 5s infinite forwards 0s linear; 
-    }
-    
+    } 
     @keyframes animate5{
         0%{ box-shadow:0px 0px 0px 0px transparent ;}
         50%{ box-shadow: 0px 0px 0px 4px rgba(255, 255, 255,0.4);}
@@ -154,20 +149,14 @@ div{
         color: #9c9c9c;
     }
      .head5{
-        color: #FCBC45;
-        
+        color: #FCBC45;     
     }
     .text5{
-        color: #7A7A7A;
-        
+        color: #7A7A7A;      
     }
  .num{
         font-size: calc(25px);
         font-weight: bold;
-    }
-    .iconic{
-        font-size: calc(25px);
-        color:#FCBC45 ;
     }
     .super{
         color:#FCBC45 ; 
@@ -183,15 +172,12 @@ div{
         transform: translateY(-8px);
     }
     .box001{
-        
         margin-left: auto;
         margin-right: auto;
         box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.2);
         border-radius: 10px 10px 10px 10px;
         margin-bottom: 10px;
         margin-top: 30px;
-    
-
     }
     .lorem-text{
         text-align: justify;
@@ -224,7 +210,6 @@ div{
     .pic0{
         height: 300px;
         border-radius: 5px;
-
     }
     .linkline{
         color: black;
@@ -249,8 +234,7 @@ div{
         background-color: FCBC45;
         transform: scale(0.9);
     }
-    .linking{
-        
+    .linking{  
         color: white;
         transition: all 300ms ease-out 0s;
     }
@@ -265,9 +249,7 @@ div{
         color: #FCBC45;;
     }
     @keyframes animate1{
-        from{ transform: translateX(-50%);
-            
-            }
+        from{ transform: translateX(-50%); }
         to{ transform: translateX(0%);}
     }
   .headline{
@@ -302,8 +284,6 @@ div{
   .servis{
     font-weight: bold;
   }
-
-
 @media all and ( max-width:767px ) {
     
     .pic01{
@@ -315,13 +295,16 @@ div{
         width: 95%;
         background-color: #79797985;
     }
+    .iconic{
+        font-size: calc(25px);
+        color:#FCBC45 ;
+    }
     .two{
         text-align: right;
     }
      .bg1{
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.645) ,rgba(0, 0, 0, 0.742)) ,url("../images/2.jpg");
         background-position: left top;
-    
     }
     .photo1{
         border-radius: 5px;
@@ -352,14 +335,17 @@ div{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: -10px;
-    }
-   
+    }  
 }
 @media all and (min-width:768px) and ( max-width:991px) {
     .pic01{
         width: 70%;
         margin: 20px;
-       
+    }
+    .bord{
+        border-left: 1px solid #141719;
+        border-right: 1px solid #141719;
+        border-bottom: 1px solid #141719;
     }
     .pic1{
         margin-left: auto;
@@ -436,6 +422,13 @@ div{
         top: 100px;
         border: 20px solid white;
       }
+      .news{
+        text-align: center;
+      }
+      .iconic{
+        font-size: calc(35px);
+        color:#FCBC45 ;
+      }  
 }
 @media all and (min-width:992px) {
     .pic01{
@@ -448,6 +441,15 @@ div{
         width: 80%;
         background-color: #79797985;
     }
+    .bord{
+        border-left: 1px solid #141719;
+        border-right: 1px solid #141719;
+        border-bottom: 1px solid #141719;
+    }
+    .iconic{
+        font-size: calc(35px);
+        color:#FCBC45 ;
+      }
     .textmd{
         font-size: calc(14px);
         color: white;
@@ -522,6 +524,10 @@ div{
         left: 110px;
         top: 100px;
         border: 20px solid white;
+      }
+      .infor{
+        font-size: calc(20px);
+        font-weight: 600;
       }
 }
  .cash{
