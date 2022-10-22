@@ -276,6 +276,7 @@
   .servis{
     font-weight: bold;
   }
+ 
 @media all and ( max-width:767px ) {
     
     .pic01{
@@ -328,6 +329,9 @@
         margin-right: auto;
         margin-bottom: -10px;
     }  
+    .slid-text{
+        display: none;
+    }
 }
 @media all and (min-width:768px) and ( max-width:991px) {
     .pic01{
@@ -356,12 +360,16 @@
         font-size: calc(45px);
     }
     .servis{
-        font-size:calc( 35px);
+        font-size:calc( 30px);
     }
     .bg1{
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.645) ,rgba(0, 0, 0, 0.742)) ,url("../images/2.jpg");
         background-position: left top;
         background-attachment: fixed;
+        height: 500px;
+    }
+    .client{
+        margin-top: 200px;
     }
     .photo1{
         border-radius: 5px;
@@ -459,7 +467,10 @@
         background:linear-gradient(45deg , rgba(0, 0, 0, 0.645) ,rgba(0, 0, 0, 0.742)) ,url("../images/2.jpg");
         background-position: left top;
         background-attachment: fixed;
-        
+        height: 500px;
+    }
+    .client{
+        margin-top: 200px;
     }
     .photo1{
         border-radius: 5px;
