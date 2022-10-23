@@ -29,6 +29,8 @@
         border-left: 1px solid gray;
         padding-left: 10px;
         transition: all 300ms ease-out 0s;
+        -webkit-transition:all 300ms ease-out 0s ;
+        -moz-transition: all 300ms ease-out 0s;
         color: white;
     }
     .icface:hover{
@@ -49,6 +51,8 @@
         text-align: center;
         color: #DADADA;
         animation:animate3 1.2s 1 0s forwards linear; 
+        -moz-animation:animate3 1.2s 1 0s forwards linear;
+        -webkit-animation: animate3 1.2s 1 0s forwards linear;
     }
     @keyframes animate3{
         from{ transform: translateX(50%); }
@@ -56,6 +60,8 @@
     }
     .anim{
         animation:animate4 2.2s 1 0s forwards linear; 
+        -moz-animation: animate4 2.2s 1 0s forwards linear;
+        -webkit-animation:animate4 2.2s 1 0s forwards linear ;
     }
     @keyframes animate4{
         0%{ opacity: 0;}
@@ -65,9 +71,13 @@
     }
     .box-quote{
         animation:animate1 1.2s 1 0s forwards linear; 
+        -moz-animation:animate1 1.2s 1 0s forwards linear ;
+        -webkit-animation:animate1 1.2s 1 0s forwards linear ;
     }
     .welcome{
         animation:animate2 1.2s 1 0s forwards linear; 
+        -moz-animation:animate2 1.2s 1 0s forwards linear ;
+        -webkit-animation:animate2 1.2s 1 0s forwards linear ;
     }
     @keyframes animate2{
         from{ margin-left:-500px; }
@@ -91,6 +101,8 @@
     }
     .box1:hover{
         transform: translateY(-8px);
+        -moz-transform:translateY(-8px) ;
+        -webkit-transform:translateY(-8px) ;
     }
     .circle{
         width: 50px;
@@ -163,6 +175,8 @@
     }
     .hand:hover{
         transform: translateY(-8px);
+        -moz-transform:translateY(-8px) ;
+        -webkit-transform:translateY(-8px) ;
     }
     .box001{
         margin-left: auto;
@@ -184,6 +198,8 @@
     }
     .box22:hover{
         transform: translateY(-8px);
+        -moz-transform:translateY(-8px) ;
+        -webkit-transform:translateY(-8px) ;
     }
     .check{
         color:#FCBC45 ;
@@ -499,6 +515,7 @@
     ul>li:hover ol {
         display: block;
     }
+    
     .bord{
         border-left: 1px solid #141719;
         border-right: 1px solid #141719;
