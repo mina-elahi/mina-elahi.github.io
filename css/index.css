@@ -3,6 +3,7 @@
        z-index: 5; 
         background-color: #262626;
     }
+
     .spc{
         margin-top: 53px;
     }
@@ -288,6 +289,17 @@
         width: 95%;
         background-color: #79797985;
     }
+    ol {
+        display: none;
+        width: 100%;
+        margin: 0 auto;
+        background-color:rgba(77, 76, 75, 0.6);
+        border-radius:0px 0px 10px 10px;
+        list-style-type: none;
+        position: absolute;
+        padding:10px;
+        transition: all 600ms ease 0s;
+    }
     .iconic{
         font-size: calc(25px);
         color:#FCBC45 ;
@@ -337,6 +349,17 @@
     .pic01{
         width: 70%;
         margin: 20px;
+    }
+    ol {
+        display: none;
+        width: 100%;
+        margin: 0 auto;
+        background-color:rgba(77, 76, 75, 0.6);
+        border-radius:0px 0px 10px 10px;
+        list-style-type: none;
+        position: absolute;
+        padding:10px;
+        transition: all 600ms ease 0s;
     }
     .bord{
         border-left: 1px solid #141719;
@@ -440,6 +463,41 @@
         margin-right: auto;
         width: 80%;
         background-color: #79797985;
+    }
+       
+    ol {
+        display: none;
+        width: 100%;
+        margin: 0 auto;
+        background-color:rgba(77, 76, 75, 0.6);
+        border-radius:0px 0px 10px 10px;
+        list-style-type: none;
+        position: absolute;
+        padding:10px;
+        transition: all 600ms ease 0s;
+    }
+        
+    ol>li {
+        width: 100%; 
+    }
+    
+    ol>li>a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size:calc(16px);
+        text-decoration: none;
+        font-family: sans-serif;
+        line-height: 40px;
+        color:white;
+        transition: all 600ms ease 0s;
+    }   
+    ol>li>a:hover {
+        color:#FCBC45 ;
+    }
+    ul>li:hover ol {
+        display: block;
     }
     .bord{
         border-left: 1px solid #141719;
