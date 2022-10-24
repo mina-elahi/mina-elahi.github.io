@@ -460,6 +460,13 @@
         left: 110px;
         top: 100px;
         border: 20px solid white;
+        -webkit-animation:animation7 1s forwards 0s linear ;
+        -moz-animation:animation7 1s forwards 0s linear ;
+        animation:animation7 1s forwards 0s linear; 
+      }
+      @keyframes animation7{
+        from{ transform: translatey(50%); }
+        to{ transform: translatey(0);}
       }
       .news{
         text-align: center;
@@ -603,7 +610,15 @@
         left: 110px;
         top: 100px;
         border: 20px solid white;
+        -webkit-animation:animation7 1s forwards 0s linear ;
+        -moz-animation:animation7 1s forwards 0s linear ;
+        animation:animation7 1s forwards 0s linear; 
       }
+      @keyframes animation7{
+        from{ transform: translatey(50%); }
+        to{ transform: translatey(0);}
+      }
+      
       .infor{
         font-size: calc(20px);
         font-weight: 600;
@@ -613,4 +628,5 @@
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.2);
     background-color: #faf7f7;
     margin-bottom: -50px;
+    animation:animation7 1s forwards 0s linear; 
  }
